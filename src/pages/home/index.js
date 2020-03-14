@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../../container';
+import Container from '../../container';
 import Button from '@kiwicom/orbit-components/lib/Button';
 import { Flex } from 'reflexbox';
 

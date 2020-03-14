@@ -1,11 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Nav from '../nav';
 
-export const Container = ({ children }) => {
+const Container = ({ children }) => {
   return (
     <div>
-      <Nav></Nav>
       <Content>{children}</Content>
     </div>
   );
@@ -14,3 +12,5 @@ export const Container = ({ children }) => {
 const Content = styled.div`
   margin-top: 52px;
 `;
+
+export default Container;
