@@ -3,8 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ThemeProvider from '@kiwicom/orbit-components/lib/ThemeProvider';
+import getTheme from './theme';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <ThemeProvider
+    theme={{ yourCustomTheme: { black: '#000' }, orbit: getTheme() }}
+  >
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
