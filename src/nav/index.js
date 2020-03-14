@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import NavigationBar from '@kiwicom/orbit-components/lib/NavigationBar';
 import ButtonLink from '@kiwicom/orbit-components/lib/ButtonLink';
 import Stack from '@kiwicom/orbit-components/lib/Stack';
-import { BrowserRouter as Router, NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
   return (

@@ -10,7 +10,7 @@ const Container = ({ children }) => {
 };
 
 const Content = styled.div`
-  margin-top: 52px;
+  margin-top: 64px;
 `;
 
 export default Container;

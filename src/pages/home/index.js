@@ -9,8 +9,8 @@ function Main() {
       <Flex flexDirection="column" alignItems="center">
         <h1>Welcome to EduCord</h1>
         <Flex width={[1, 1 / 2]} justifyContent="space-around">
-          <Button>I am a Teacher</Button>
-          <Button>I am a Student</Button>
+          <Button href="/teachers">I am a Teacher</Button>
+          <Button href="/students">I am a Student</Button>
         </Flex>
       </Flex>
     </Container>
